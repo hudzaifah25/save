@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Ekstrakulikuler</title>
+</head>
+<h1>Formulir Pendaftaran Ekstrakulikuler</h1>
+
+<form action="/proses-daftar" method="POST">
+    <h2>Data Diri Santri</h2>
+
+    <label for="nama">Nama Lengkap</label> <br>
+    <input type="text" id="nama" name="nama" placeholder="Contoh:Ahmad Handoyo" required> <br><br>
+
+    <label for="email">Alamat Email</label> <br>
+    <input type="text" id="email" name="email" placeholder="nama@contoh05.com" required> <br><br>
+
+    <label for="telepon">Nomor Telepon</label> <br>
+    <input type="tel" name="telepon" id="telepon" placeholder="+6285369706531"> <br><br>
+
+    <label for="tgl-lahir">Tanggal Lahir</label> <br>
+    <input type="date" name="tgl-lahir" id="tgl-lahir"> <br><br>
+
+    <p>Jenis Kelamin</p>
+    <label>
+        <input type="radio" name="jenis kelamin" value="laki-laki">Laki-laki
+        <input type="radio" name="jenis kelamin" value="perempuan"> Perempuan
+    </label> <br><br>
+
+    <h2>Pilihan Ekstrakulikuler</h2>
+    <label ekskul>Ekstrakulikuler</label> <br>
+    <select name="ekskul" id="ekskul">
+        <option value="">-Pilih Ekskul-</option>
+        <option value="futsal">Futsal</option>
+        <option value="basket">Basket</option>
+        <option value="voli">Voli</option>
+        <option value="panahan">Panahan</option>
+        <option value="badminton">Badminton</option>
+        <option value="tenis meja">Tenis Meja</option>
+    </select>
+
+    <p>boleh pilih lebih dari satu</p>
+    <label>
+        <input type="checkbox" name="minat" value="futsal">futsal
+    </label>
+    <label>
+        <input type="checkbox" name="minat" value="basket">basket
+    </label>
+    <label>
+        <input type="checkbox" name="minat" value="voli">voli
+    </label>
+    <label>
+        <input type="checkbox" name="minat" value="panahan">panahan
+    </label>
+    <label>
+        <input type="checkbox" name="minat" value="badminton">badminton
+    </label>
+    <label>
+        <input type="checkbox" name="minat" value="tenis meja">tenis meja
+    </label>
+
+    <label for="bio">bio singkat:</label> <br>
+    <textarea name="bio" id="bio" rows="7" placeholder="tulis biodata singkat tentang kamu.."></textarea> <br><br>
+
+
+    <label>
+        <input type="checkbox" name="setuju" required>Saya Menyetujui
+        <a href="/syarat-ketentuan">Syarat & Ketentuan</a>
+    </label> <br><br>
+
+    <input type="submit" value="Daftar Sekarang">
+
+
+</form>
+
+<body>
+</body>
+
+</html>
