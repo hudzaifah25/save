@@ -1,0 +1,80 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(243, 227, 198);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  text-align: center;
+}
+
+.kartu-santri {
+  width: 300px;
+  padding: 50px;
+  border: 2px solid #4294e5;
+  margin: 15px;
+  background-color: rgb(246, 216, 216);
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  background-image: url(santri\ 1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.kartu-santri2 {
+  width: 300px;
+  padding: 50px;
+  border: 2px solid #4294e5;
+  margin: 15px;
+  background-color: rgb(246, 216, 216);
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  background-image: url(santri\ 2.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.kartu-santri3 {
+  width: 300px;
+  padding: 50px;
+  border: 2px solid #4294e5;
+  margin: 15px;
+  background-color: rgb(246, 216, 216);
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  background-image: url(santri\ 3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background: rgb(143, 143, 231);
+  color: black;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 5px;
+  font-size: 15px;
+}
+
+/* .kartu-tombol {
+border-radius: 8px;
+padding: 8px 16px;
+} */
