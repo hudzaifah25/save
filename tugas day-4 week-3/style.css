@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ID Selector */
+#hero {
+  height: 700px;
+  background-image: url(poto\ laptop.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Class Selector */
+.overlay {
+  background: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 60px;
+}
+
+.overlay p {
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: rgb(11, 159, 234);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Skill */
+.skill {
+  min-height: 500px;
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+
+  background-color: hsl(210, 53%, 75%);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.skill h2 {
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 250px;
+  display: inline-block;
+  background: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+/* Kontak */
+#kontak {
+  height: 500px;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(kerja\ sama.webp) no-repeat center center;
+
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kontak-overlay {
+  background-color: hsla(210, 80%, 50%, 0.25);
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.kontak-overlay h2 {
+  margin-bottom: 15px;
+}
