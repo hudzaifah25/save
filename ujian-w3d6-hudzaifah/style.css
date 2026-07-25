@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.kartu-info {
+  background-color: aqua;
+  padding: 20px;
+}
+
+#judul-soal-2 {
+  color: darkgreen;
+}
+
+.kegiatan {
+  padding: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.kegiatan-penting {
+  background-color: blanchedalmond;
+}
+
+.kotak-error {
+  color: white;
+  background-color: steelblue;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.warna-1 {
+  background-color: aquamarine;
+  width: 150px;
+  height: 80px;
+}
+.warna-2 {
+  background-color: #d5aaaa;
+  width: 150px;
+  height: 80px;
+}
+.warna-3 {
+  background-color: rgb(86, 156, 225);
+  width: 150px;
+  height: 80px;
+}
+.warna-4 {
+  background-color: hsl(20, 7%, 39%);
+  width: 150px;
+  height: 80px;
+}
+.warna-overlay {
+  background-color: rgba(15, 50, 70, 25);
+  width: 150px;
+  height: 80px;
+}
+
+.hero {
+  height: 50vh;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-image: url(selamat\ datang.avif);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.kartu-akhir {
+  width: 250px;
+  padding: 20px;
+  border: 3px solid #2c3e50;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+/* total lebar nya adlah 250px */
