@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(rgb(42, 42, 124), rgb(97, 216, 97));
+}
+
+.promosi-produk {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 70%, #8aadc5, #5050ad);
+}
+
+.promosi-produk img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.kartu-produk {
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 15%;
+  background: radial-gradient(circle at 30% 70%, #3498db, #1a1a2e);
+
+  box-shadow:
+    0 2px 4px rgba(255, 0, 0, 0.99),
+    0 8px 24px rgb(0, 255, 81);
+}
+
+.kartu-produk h1 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 5px;
+}
+
+.kartu-produk h3 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.kartu-produk p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.harga {
+  margin: 20px;
+  padding: 10px;
+}
+
+button {
+  padding: 14px 36px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6b7a99;
+  background: #e0e5ec;
+  box-shadow:
+    6px 6px 14px #b8bec8,
+    -6px -6px 14px #ffffff;
+}
+
+button:active {
+  box-shadow:
+    inset 4px 4px 10px #b8bec8,
+    inset -4px -4px 10px #ffffff;
+  transform: scale(0.98);
+}
+
+.btn-glass {
+  padding: 14px 36px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: #b0e3bf;
+  background: rgba(128, 230, 149, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.15;
+}
+
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+/* jawaban bagian A:
+1.class selector digunakan untuk banyak elemen,
+id selector digunakan untuk satu elemen.
+make class selector untuk elemen yg berulang,
+dan id untuk elemen khusus.
+2.internal css ditulis didalam tag style pada file html,
+eksternal css di tulis di file css terpisah lalu untuk memanggil nya menggunakan link.
+untuk projek multi halaman maka yg disarankan menggunakan eksternal css. */
