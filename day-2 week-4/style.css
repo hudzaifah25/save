@@ -1,0 +1,48 @@
+.kartu-santri {
+  padding: 16px;
+  margin-bottom: 30px;
+  width: 320px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: linear-gradient(rgb(21, 99, 111), rgb(45, 98, 76));
+}
+
+.foto-santri {
+  width: 80px;
+  height: 80px;
+  background-color: #9ec5fe;
+  border-radius: 50%;
+  margin: 30px;
+  background-image: url(download.jpg);
+  background-position: center center;
+}
+
+.foto-santri2 {
+  width: 80px;
+  height: 80px;
+  background-color: #9ec5fe;
+  border-radius: 50%;
+  margin: 30px;
+  background-image: url(santriwati.jpg);
+  background-position: center center;
+}
+
+.label-kelas {
+  padding: 10px 24px;
+  background-color: #9ec5fe;
+  border-radius: 999px;
+}
+
+.tombol-detail:focus {
+  border: 1px solid #9ec5fe;
+  outline: 3px solid rgb(123, 210, 4);
+}
+
+/* .kotak-error {
+     padding: 10px 20px 30px 40px;
+     margin: 15px auto;
+     border: 2px solid red;
+     border-radius: 8px; 
+     }  
+*/
