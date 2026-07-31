@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+header p {
+  margin-top: 10px;
+}
+
+.section-kasus {
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section-kasus h2 {
+  margin-bottom: 20px;
+}
+
+.kartu-produk {
+  position: relative;
+  width: 300px;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.kartu-produk img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.kartu-produk h3 {
+  margin-top: 15px;
+}
+
+.harga {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.badge-sale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tombol-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.tombol-chat:hover {
+  background-color: #1e8449;
+}
+
+.wadah-tumpukan {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: #e5e7eb;
+  border: 2px solid #000;
+  margin-bottom: 40px;
+}
+
+.kotak-merah,
+.kotak-hijau,
+.kotak-biru {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 150px;
+}
+
+.kotak-merah {
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.kotak-hijau {
+  background-color: green;
+  top: 50px;
+  left: 60px;
+  z-index: 2;
+}
+
+.kotak-biru {
+  background-color: blue;
+  top: 80px;
+  left: 100px;
+  z-index: 3;
+}
+
+.kotak-overflow {
+  width: 350px;
+  height: 150px;
+  background-color: #ffe4b5;
+  border: 2px solid #333;
+  padding: 10px;
+  overflow: auto;
+}
