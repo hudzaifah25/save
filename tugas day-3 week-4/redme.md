@@ -1,0 +1,2 @@
+Font-size di hero section menggunakan satuan berbeda agar ukurannya lebih responsif terhadap ukuran layar. Misalnya memakai rem atau vw, sedangkan bagian lain memakai px untuk ukuran yang lebih tetap.
+Jika padding pada kutipan yang semula memakai em diganti menjadi px, maka jarak dalam kutipan akan menjadi tetap dan tidak ikut menyesuaikan ketika ukuran teks berubah. Dengan em, padding akan mengikuti besar kecilnya font.
