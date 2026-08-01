@@ -1,0 +1,147 @@
+/* Reset dan Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #1e3a8a;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.nama {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.nama::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background-color: #3b82f6;
+  margin: 8px auto 0;
+  border-radius: 5px;
+}
+
+.deskripsi {
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.btn-kontak {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-kontak:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-kontak:active {
+  transform: scale(0.95);
+}
+
+.skill-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.skill {
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.skill::before {
+  content: "⚡ ";
+}
+
+.skill:nth-child(odd) {
+  background-color: #dbeafe;
+}
+
+.skill:nth-child(even) {
+  background-color: #bfdbfe;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .profil {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    padding: 40px;
+  }
+
+  .deskripsi {
+    max-width: 600px;
+  }
+}
