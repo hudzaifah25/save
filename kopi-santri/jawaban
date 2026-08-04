@@ -1,0 +1,10 @@
+1.git adalah perangkat lunak, berjalan di komputer lokal, mencatat dan mengelola riwayat perubahan kode, tidak diperlukan, kamera foto.
+  github adalah layanan berbasis web, berjalan di internet, menyimpan dan berbagi kode secara online, diperlukan, platform media sosial untuk berbagi foto.
+-pertanyaan refleksi:
+ user.name dan user email cukup dilakukan sekali karena git menyimpannya sebagai identitas pengguna dikomputer.
+2.-Working Directory — Kamu memilih dan memasukkan produk ke keranjang belanja (menulis kode). 
+  -Staging Area — Kamu membawa keranjang ke meja kasir dan memilih produk mana yang akandibayar (menentukan perubahan mana yang akan dicatat). 
+  -Repository — Kasir mencetak struk sebagai bukti transaksi resmi (perubahan tersimpanpermanen dalam riwayat Git.
+3.Sebaiknya menjalankan git diff sebelum git add untuk mengecek perubahan yang sudah dibuat.
+ Dengan begitu kita bisa memastikan tidak ada kesalahan sebelum file dimasukkan ke staging area.
+4.git blame berguna untuk mengetahui siapa yang terakhir mengubah suatu baris kode dan kapan perubahannya dilakukan. Contohnya, saat ada bug pada sebuah fitur, kita bisa menggunakan git blame untuk melihat siapa yang mengubah bagian kode tersebut agar lebih mudah mencari penyebabnya.
